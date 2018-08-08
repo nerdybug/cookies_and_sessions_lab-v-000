@@ -54,6 +54,6 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   root 'products#index'
-  post '/' => 'products#add'
+  post 'products#add'
 
 end
