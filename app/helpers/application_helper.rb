@@ -1,6 +1,6 @@
 module ApplicationHelper
 
-  def cart
+  def current_cart
     session[:cart] ||= []
   end
 end
